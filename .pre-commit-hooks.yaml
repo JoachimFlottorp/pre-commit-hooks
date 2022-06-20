@@ -1,0 +1,6 @@
+- id: go-run-test
+  name: go test
+  description: Run golang tests
+  entry: go-run-test
+  language: python
+  pass_filenames: false

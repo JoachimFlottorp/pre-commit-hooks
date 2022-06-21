@@ -11,4 +11,3 @@
   entry: go-run-fmt
   language: python
   pass_filenames: false
-  args: ["-a", "--auto"]

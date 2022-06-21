@@ -18,6 +18,7 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
+          cache-dependency-path: '**/requirements-dev.txt'
           cache: 'pip'
 
       - name: Install Dependencies

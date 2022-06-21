@@ -4,3 +4,11 @@
   entry: go-run-test
   language: python
   pass_filenames: false
+
+- id: go-run-fmt
+  name: go fmt
+  description: Run golang formatter
+  entry: go-run-fmt
+  language: python
+  pass_filenames: false
+  args: ["-a", "--auto"]
